@@ -2,7 +2,7 @@ title Sokoban
 author Rob Loach
 homepage https://github.com/robloach/puzzlescript-experiments
 color_palette mastersystem
-background_color black
+background_color #374e4a
 text_color white
 
 ========
@@ -10,10 +10,10 @@ OBJECTS
 ========
 
 Nothing
-black
+#374e4a
 
 Background
-green lightgreen
+#239063 #1ebc73
 00000
 10000
 00010
@@ -21,7 +21,7 @@ green lightgreen
 01000
 
 Target
-black
+#313638
 .....
 .000.
 .0.0.
@@ -29,7 +29,7 @@ black
 .....
 
 Wall
-darkred red lightred
+#2e222f #3e3546 #625565
 12222
 01112
 01112
@@ -37,7 +37,7 @@ darkred red lightred
 00001
 
 Player
-black white #ff55ff darkblue
+#484a77 white #e83b3b #4d9be6
 .333.
 .111.
 12221
@@ -45,7 +45,15 @@ black white #ff55ff darkblue
 .0.0.
 
 Crate
-darkbrown brown lightbrown
+#cd683d #e6904e #fbb954
+12222
+01112
+01112
+01112
+00001
+
+CrateOnTarget
+#484a77 #4d65b4 #4d9be6
 12222
 01112
 01112
@@ -69,6 +77,8 @@ SOUNDS
 =======
 
 Crate Move 76209507
+CrateOnTarget Move 76209507
+Sfx0 10766500
 Player CantMove 83395704
 EndLevel 99993300
 EndGame 123413
@@ -80,19 +90,23 @@ COLLISIONLAYERS
 Background
 Nothing
 Target
-Player, Wall, Crate
+Player, Wall, Crate, CrateOnTarget
 
 ======
 RULES
 ======
 
 [ > Player | Crate ] -> [ > Player | > Crate ]
+[ > Player | CrateOnTarget ] -> [ > Player | > CrateOnTarget ]
+
+late [ Crate Target ] -> [ CrateOnTarget Target] Sfx0
+late [ CrateOnTarget No Target ] -> [ Crate No Target]
 
 ==============
 WINCONDITIONS
 ==============
 
-all Target on Crate
+no Crate
 
 =======
 LEVELS
