@@ -4,7 +4,9 @@
 
 The original [Sokoban](https://en.wikipedia.org/wiki/Sokoban) DOS levels, along with the extra set.
 
-![sokoban.gif](sokoban.gif)
+[Play Online](https://www.puzzlescript.net/play.html?p=d9b8d2d3898cdac8778738bb49ea1a76)
+
+[![sokoban.gif](sokoban.gif)](https://www.puzzlescript.net/play.html?p=d9b8d2d3898cdac8778738bb49ea1a76)
 
 ### Features
 
