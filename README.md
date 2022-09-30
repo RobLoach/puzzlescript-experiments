@@ -2,11 +2,11 @@
 
 ## Sokoban
 
-The original [Sokoban](https://en.wikipedia.org/wiki/Sokoban) DOS levels, along with the extra set.
+The original [Sokoban](https://en.wikipedia.org/wiki/Sokoban) DOS levels, along with the extra set, for [PuzzleScript](https://www.puzzlescript.net/).
 
 [Play Online](https://www.puzzlescript.net/play.html?p=d9b8d2d3898cdac8778738bb49ea1a76)
 
-[![sokoban.gif](sokoban.gif)](https://www.puzzlescript.net/play.html?p=d9b8d2d3898cdac8778738bb49ea1a76)
+[![sokoban.gif](https://gist.githubusercontent.com/RobLoach/d9b8d2d3898cdac8778738bb49ea1a76/raw/670f392683a3b2162ba2248f7d44df4739ec37ae/sokoban.gif)](https://www.puzzlescript.net/play.html?p=d9b8d2d3898cdac8778738bb49ea1a76)
 
 ### Features
 
