@@ -10,4 +10,4 @@ The original [Sokoban](https://en.wikipedia.org/wiki/Sokoban) DOS levels, along 
 
 ## License
 
-[GPL](LICENSE)
+[MIT](LICENSE)
