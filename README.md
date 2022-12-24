@@ -1,5 +1,7 @@
 # PuzzleScript Experiments
 
+[PuzzleScript](https://www.puzzlescript.net/) is an open source puzzle game engine. These are a few experiments I've put together using PuzzleScript.
+
 ## [Sokoban](https://gist.github.com/RobLoach/d9b8d2d3898cdac8778738bb49ea1a76)
 
 The original [Sokoban](https://en.wikipedia.org/wiki/Sokoban) DOS levels, along with the extra set, for [PuzzleScript](https://www.puzzlescript.net/). Has new graphics using the [Resurrect 64 Palette](https://lospec.com/palette-list/resurrect-64), along with levels sourced from the [Sokoban Levels Source](https://www.sourcecode.se/sokoban/levels).
